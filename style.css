@@ -1,0 +1,31 @@
+table {
+    margin: 5px auto;
+}
+td {
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: 5rem;
+}
+.vert {
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+.hori {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+.board {
+    margin-top: 8rem;
+}
+body {
+    background-image: url("lion.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hide {
+    display: none;
+}
+.win {
+    background-color: blueviolet;
+}
