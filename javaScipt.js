@@ -41,7 +41,7 @@ function checkPattern() {
 
     xWin = winner !== undefined;
 
-    winner.addClass("win");
+    $(winner).addClass("win");
 }
 
 window.addEventListener("load", gameSetup);
